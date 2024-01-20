@@ -8,7 +8,7 @@ getgenv().FpsBoost = false
 getgenv().Setting = {
     ["Team"] = "Pirates", --Marines
     ["Webhook"] = {
-        ["Url"] = "https://discord.com/api/webhooks/1192690708168052776/7QO-k8yMIfsjEteEJnBUl4MDL5M5d8k1bnSwONJsuXYXHCYg3-bo1kSvTf45-LNoeMUX",
+        ["Url"] = "https://discord.com/api/webhooks/1198065899765256212/zalkAwRV0JtAAuwbv5WGXp_IRJF7VYTyuRdLuLgHxh-LNKLU1XpWjsbX3GBsc2DAI1Q3",
         ["Enabled"] = true,
         ["Embed"] = true,
         ["StoredFruit"] = true,
@@ -92,7 +92,7 @@ getgenv().Setting = {
         }
     },
     ["ChatKill"] = {
-        Enable = true,
+        Enable = false,
         Chat = {
             "+1 member donate kill 🤣🤣","ty for bounty 😂😂","LOL 🤣🤣"
         },
@@ -104,7 +104,7 @@ getgenv().Setting = {
     },
     ["FpsLock"] = {
         ["Enable"] = true,
-        ["Cap"] = 40,
+        ["Cap"] = 60,
     },
     ["LockBounty"] = {
         ["Enable"] = true,
