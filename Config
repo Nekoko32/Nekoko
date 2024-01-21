@@ -8,7 +8,7 @@ getgenv().FpsBoost = false
 getgenv().Setting = {
     ["Team"] = "Pirates", --Marines
     ["Webhook"] = {
-        ["Url"] = "https://discord.com/api/webhooks/1198065899765256212/zalkAwRV0JtAAuwbv5WGXp_IRJF7VYTyuRdLuLgHxh-LNKLU1XpWjsbX3GBsc2DAI1Q3",
+        ["Url"] = "https://discord.com/api/webhooks/1192690708168052776/7QO-k8yMIfsjEteEJnBUl4MDL5M5d8k1bnSwONJsuXYXHCYg3-bo1kSvTf45-LNoeMUX",
         ["Enabled"] = true,
         ["Embed"] = true,
         ["StoredFruit"] = true,
@@ -18,15 +18,15 @@ getgenv().Setting = {
         ["OnServerHop"] = true,
         ["BountyChanged"] = true,
     }, 
-    ["Panel"] = false,
+    ["Panel"] = true,
     ["FpsBoost"] = {
         Enable = false,
         Mode = "Lite",--Lite: Just Lower Graphics, Full: Completely Make All Objects Transparent
     },
     ["Hide Theme"] = false,
-    ["3D Render Disable"] = true,
+    ["3D Render Disable"] = false,
     ["Theme"] = {
-        ["Name"] = "Old",--"Old", "Raiden","Ayaka","Hutao","Yelan","Miko","Nahida","Ganyu","Keqing","Nilou","Barbara","Zhongli","Layla"
+        ["Name"] = "Raiden",--"Old", "Raiden","Ayaka","Hutao","Yelan","Miko","Nahida","Ganyu","Keqing","Nilou","Barbara","Zhongli","Layla"
         ["Custom"] = {
             ["Enable"] = false,
             ['char_size'] = UDim2.new(0.668, 0, 1.158, 0),
@@ -51,7 +51,7 @@ getgenv().Setting = {
     },
     ["Auto Use Race V3"] = {
         Enable = true,
-        UseBelowHealth = false, -- Below Specific Health It Will use Race V3
+        UseBelowHealth = true, -- Below Specific Health It Will use Race V3
         Health = 4500,
         NearPlayer = true, -- Only use If Near Player
     },
