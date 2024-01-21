@@ -18,15 +18,15 @@ getgenv().Setting = {
         ["OnServerHop"] = true,
         ["BountyChanged"] = true,
     }, 
-    ["Panel"] = true,
+    ["Panel"] = false,
     ["FpsBoost"] = {
         Enable = false,
         Mode = "Lite",--Lite: Just Lower Graphics, Full: Completely Make All Objects Transparent
     },
     ["Hide Theme"] = false,
-    ["3D Render Disable"] = false,
+    ["3D Render Disable"] = true,
     ["Theme"] = {
-        ["Name"] = "Raiden",--"Old", "Raiden","Ayaka","Hutao","Yelan","Miko","Nahida","Ganyu","Keqing","Nilou","Barbara","Zhongli","Layla"
+        ["Name"] = "Old",--"Old", "Raiden","Ayaka","Hutao","Yelan","Miko","Nahida","Ganyu","Keqing","Nilou","Barbara","Zhongli","Layla"
         ["Custom"] = {
             ["Enable"] = false,
             ['char_size'] = UDim2.new(0.668, 0, 1.158, 0),
@@ -51,7 +51,7 @@ getgenv().Setting = {
     },
     ["Auto Use Race V3"] = {
         Enable = true,
-        UseBelowHealth = true, -- Below Specific Health It Will use Race V3
+        UseBelowHealth = false, -- Below Specific Health It Will use Race V3
         Health = 4500,
         NearPlayer = true, -- Only use If Near Player
     },
