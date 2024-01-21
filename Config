@@ -92,9 +92,9 @@ getgenv().Setting = {
         }
     },
     ["ChatKill"] = {
-        Enable = true,
+        Enable = false,
         Chat = {
-            "+1 member donate kill 🤣🤣","ty for bounty 😂😂","LOL 🤣🤣"
+            "+1 member donate kill 🤣🤣","ty for bounty 😂😂"," 🤣🤣"
         },
     },
     ["Mention"] = {
