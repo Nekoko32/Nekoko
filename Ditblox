@@ -1,5 +1,4 @@
-```lua
---- kaitun ditbf
+
 getgenv().DitBF = {
     ["Performance"] = {
         ["Hide Map"] = false,
